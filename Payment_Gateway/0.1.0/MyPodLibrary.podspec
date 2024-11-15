@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Varun0152' => 'varun.bagga@astrotalk.com' }
-  s.source           = { :git => 'https://github.com/Varun0152/MyPodLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Varun0152/Payment_Pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
   s.requires_arc = true  # Ensure ARC is enabled
-  s.source_files = 'MyPodLibrary/Classes/**/*', 'PaymentManager/**/*', 'Models/**/*', 'NetworkManager/**/*', 'Extensions/**/*', 'Helpers/**/*', 'Payoneer/**/*', 'Payu/**/*'
+  s.source_files =  'PaymentManager/**/*', 'Models/**/*', 'NetworkManager/**/*', 'Extensions/**/*', 'Helpers/**/*', 'Payoneer/**/*', 'Payu/**/*'
   
 
   # s.resource_bundles = {
